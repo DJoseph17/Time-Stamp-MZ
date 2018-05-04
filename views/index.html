@@ -1,0 +1,38 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        TimeStamp Microservice
+      </h1>
+    </header>
+
+    <main>
+      <p>
+         The date that you entered will be in unix and in natural form.
+      </p>
+         
+      <h2>
+        Example
+      </h2>
+      <p>
+        Here is an example of the date in both forms. <br>
+        { "unix": 1450137600, "natural": "December 15, 2015" }
+      </p>
+    </main>
+
+  </body>
+</html>
